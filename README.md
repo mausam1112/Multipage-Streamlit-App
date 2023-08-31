@@ -8,3 +8,6 @@
 
 ### Run the streamlit application
 `streamlit run streamlit_app.py`
+
+### Multi-page creation
+The directory `pages` is where all the pages are needed to be stored. New page is just a standalone python file. It is mandatory to create directory `pages` according to Streamlit's documentation. List of pages will appear in tabs in left section of page.
