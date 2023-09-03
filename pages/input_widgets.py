@@ -45,3 +45,11 @@ color = st.select_slider(
 st.write('selected color: ', color)
 
 '-----------------------------------------'
+
+start_value, end_value = st.select_slider(
+    'Select a range of color wavelength',
+    options=[1, 2, 3, 4, 5, 6, 7, 8],
+    value=(2, 6))
+st.write('seleted between', start_value, 'and', end_value)
+
+'-----------------------------------------'
