@@ -11,9 +11,21 @@ if age < threshold_age:
 else:
     st.write(f"Age belongs to `Adult`")
 
+'-----------------------------------------'
 
 # radio button selection
 langs = ['python', 'java', 'C']
 lang = st.radio("This is radio button label", options=langs)
 
 st.write(f"selected language is `{lang}`")
+
+'-----------------------------------------'
+
+vehicle = st.selectbox(
+    label = 'Favourite Vehicle?',
+    options = ('Car', 'Bike', 'Truck', 'other')
+)
+
+st.write(f'Favourite Vehicle: {vehicle}')
+
+'-----------------------------------------'
