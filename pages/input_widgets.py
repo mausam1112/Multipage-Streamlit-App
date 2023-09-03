@@ -10,3 +10,10 @@ if age < threshold_age:
     st.write(f"Age belongs to `Children`")
 else:
     st.write(f"Age belongs to `Adult`")
+
+
+# radio button selection
+langs = ['python', 'java', 'C']
+lang = st.radio("This is radio button label", options=langs)
+
+st.write(f"selected language is `{lang}`")
