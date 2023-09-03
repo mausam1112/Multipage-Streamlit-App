@@ -35,5 +35,13 @@ colors_selected = st.multiselect(
     options = ['White', 'Red', 'Yellow', 'Green', 'Blue'],
     default = ['Yellow', 'Red'])
 
-st.write('You selected:', colors_selected)
+st.write('selected colors:', colors_selected)
 
+'-----------------------------------------'
+
+color = st.select_slider(
+    'Choose a color',
+    options= ['White', 'Red', 'Yellow', 'Green', 'Blue'])
+st.write('selected color: ', color)
+
+'-----------------------------------------'
