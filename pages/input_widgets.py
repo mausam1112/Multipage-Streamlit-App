@@ -29,3 +29,11 @@ vehicle = st.selectbox(
 st.write(f'Favourite Vehicle: {vehicle}')
 
 '-----------------------------------------'
+
+colors_selected = st.multiselect(
+    label = 'Choose multiple colors',
+    options = ['White', 'Red', 'Yellow', 'Green', 'Blue'],
+    default = ['Yellow', 'Red'])
+
+st.write('You selected:', colors_selected)
+
