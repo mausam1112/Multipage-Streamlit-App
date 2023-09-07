@@ -76,5 +76,10 @@ if bday:
 sleep_time = st.time_input("Select the time of sleep")
 if sleep_time:
     st.toast(f"Your sleep time is {sleep_time}")
-    
+
 '-----------------------------------------'
+
+file = st.file_uploader("Upload your file:")
+
+if file is not None:
+    st.success("File uploaded successfully.")
