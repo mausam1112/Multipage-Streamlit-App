@@ -70,3 +70,11 @@ if color:
 bday = st.date_input("select your birthday")
 if bday:
     st.toast(f"Your birth date is {bday}")
+
+'-----------------------------------------'
+
+sleep_time = st.time_input("Select the time of sleep")
+if sleep_time:
+    st.toast(f"Your sleep time is {sleep_time}")
+    
+'-----------------------------------------'
