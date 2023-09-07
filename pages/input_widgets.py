@@ -64,3 +64,9 @@ if demo_btn:
 color = st.color_picker("Choose the colors")
 if color:
     st.toast(f"`{color}` is chose.")
+
+'-----------------------------------------'
+
+bday = st.date_input("select your birthday")
+if bday:
+    st.toast(f"Your birth date is {bday}")
