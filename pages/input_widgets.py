@@ -53,3 +53,5 @@ start_value, end_value = st.select_slider(
 st.write('seleted between', start_value, 'and', end_value)
 
 '-----------------------------------------'
+
+demo_btn = st.button("click button")
