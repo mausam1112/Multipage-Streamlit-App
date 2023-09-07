@@ -58,3 +58,9 @@ demo_btn = st.button("click button")
 
 if demo_btn:
     st.toast("Button is Clicked")
+
+'-----------------------------------------'
+
+color = st.color_picker("Choose the colors")
+if color:
+    st.toast(f"`{color}` is chose.")
