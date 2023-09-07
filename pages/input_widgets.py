@@ -55,3 +55,6 @@ st.write('seleted between', start_value, 'and', end_value)
 '-----------------------------------------'
 
 demo_btn = st.button("click button")
+
+if demo_btn:
+    st.toast("Button is Clicked")
